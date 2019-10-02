@@ -1,3 +1,7 @@
+html, body {
+	overflow-x: hidden;
+}
+
 *{
 	font-family: 'Mina', sans-serif;
 	font-size: 16px;
@@ -152,9 +156,20 @@ body{
 	background: rgba(0, 0, 0, 0.5);
 }
 
+.carousel-control-prev-icon, .carousel-control-next-icon{
+	background-color: rgba(38, 149, 255, 0.55);
+	border-radius: 50%;
+	animation: buzz 1.25s infinite alternate;
+	box-shadow: 0 0 0 transparent, 0 0 10px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76), 0 0 40px rgb(38, 149, 255);
+}
+
 /* Container */
 .container{
 	padding-top:5em;
+}
+
+.container h1 {
+	border-bottom: solid;
 }
 
 /* Footer */
