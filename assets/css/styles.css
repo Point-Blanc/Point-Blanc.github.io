@@ -1,7 +1,11 @@
 *{
 	font-family: 'Mina', sans-serif;
 	font-size: 16px;
+}
+
+body{
 	background-color: #0f0f0f;
+	color: white;
 }
 
 @font-face{
@@ -21,11 +25,11 @@ body{
 }
 
 .navbar-custom, .navbar-brand-img, .navbar-collapse{
-	background-color: #292929 !important;
+	background-color: #292929af !important;
 }
 
 .navbar-custom-2 {
-	background-color: #292929;
+	background-color: #292929af;
 	margin-left: 3em;
 	margin-right: 3em;
 }
@@ -102,7 +106,7 @@ body{
 
 .nav-link{
 	color: #0EEACF !important;
-	background-color: #292929;
+	background-color: #292929af;
 	font-size: 1.2em;
 }
 @-webkit-keyframes buzz {
@@ -133,4 +137,30 @@ body{
 	90% {
 		opacity: 0.90;
 	}
+}
+
+/* Carousel */
+.carousel{
+	margin-top:5em;
+}
+.carousel-item{
+	width: 100% !important;
+	height: auto !important;
+}
+
+.carousel-caption{
+	background: rgba(0, 0, 0, 0.5);
+}
+
+/* Container */
+.container{
+	padding-top:5em;
+}
+
+/* Footer */
+.footer-dark{
+	padding-top: 5em;
+	width: 100%;
+	background-color: black;
+	text-align: center;
 }
