@@ -18,6 +18,7 @@
 
 	<!-- Custom CSS & JS -->
 	<link rel="stylesheet" href="assets/css/styles.css">
+	<script src="assets/js/countdown-timer.js" type="text/javascript" charset="utf-8"></script>
 </head>
 
 <body>
@@ -122,7 +123,35 @@
 
 	<!-- Container -->
 	<div class="container">
-		<h1>Rise</h1>
+		<div id="countdown-timer">
+			<div style="text-align: center">
+				<h2>Time left for you to show off</h2>
+			</div>
+			<div class="row">
+				<div class="col-md-3">
+					<h3 class="countdown-timer-head">Days</h3>
+					<div id="countdown-timer-days" class="countdown-timer-time"></div>
+				</div>
+				<div class="col-md-3">
+					<h3 class="countdown-timer-head">Hours</h3>
+					<div id="countdown-timer-hours" class="countdown-timer-time"></div>
+				</div>
+				<div class="col-md-3">
+					<h3 class="countdown-timer-head">Minutes</h3>
+					<div id="countdown-timer-minutes" class="countdown-timer-time"></div>
+				</div>
+				<div class="col-md-3">
+					<h3 class="countdown-timer-head">Seconds</h3>
+					<div id="countdown-timer-seconds" class="countdown-timer-time"></div>
+				</div>
+			</div>
+		</div>
+
+		<div id="countdown-timer-completed" hidden>
+			<p> LOLLLL </p>
+		</div>
+		
+
 	</div>
 
 	<div class="footer-dark">
