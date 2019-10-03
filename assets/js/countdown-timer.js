@@ -1,6 +1,6 @@
 function updateCountdownTime() {
 	now = new Date();
-	start_PB = Date.parse("November 9, 2009 10:30:10");
+	start_PB = Date.parse("November 9, 2019 10:30:10");
 	end_PB = Date.parse("November 10, 2019 11:30:10");
 
 	diff_start = start_PB - now;
