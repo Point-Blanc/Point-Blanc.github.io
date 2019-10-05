@@ -19,32 +19,21 @@
 	<!-- Custom CSS & JS -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<script src="assets/js/countdown-timer.js" type="text/javascript" charset="utf-8"></script>
+
+	<!-- Custom Modules -->
+	<script>
+		$(function(){
+			$("#navbar").load("modules/navbar.html")
+			$("#footer").load("modules/footer.html"); 
+		});
+		
+	</script>
+
 </head>
 
 <body>
 	<!-- NAVBAR -->
-	<div>
-		<nav class="navbar navbar-custom navbar-expand-md fixed-top">
-			<a class="navbar-brand" href="#">
-				<img class="navbar-brand-img" src="assets/img/logo.png" alt="Logo">
-			</a>
-			
-			<button class="navbar-toggler" id="menu-button" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-				<div id="menu-text">
-					Menu
-				</div>
-			</button>
-
-			<div class="collapse navbar-collapse ml-auto" id="navbarCollapse">
-				<ul class="nav navbar-nav navbar-item-center flex-grow-1 justify-content-between">
-					<li class="nav-item" role="presentation"><a class="nav-link active" href="index.html">Home</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link active" href="#">About Us</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link active" href="#">Register</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link active" href="#">Take-Aim</a></li>
-					<li class="nav-item" role="presentation"><a class="nav-link active" href="#">Contact Us</a></li>
-				</ul>
-			</div>
-		</nav>
+	<div id="navbar">
 	</div>
 
 	<!-- CAROUSEL -->
@@ -245,15 +234,7 @@
 	</div>
 
 	<!-- Footer -->
-	<div class="footer-dark">
-		<div class="row">
-			<div class="col-md-1"></div>
-			<div class="col-md-4">
-				<h1>BRINGI T ONEEEE</h1>
-			</div>
-
-			<div class="col-md-1"></div>
-		</div>
+	<div id="footer" class="footer-dark">
 	</div>
 
 </body>
