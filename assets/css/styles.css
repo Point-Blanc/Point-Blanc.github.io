@@ -199,6 +199,7 @@ body{
 /* Footer */
 .footer-dark{
 	padding-top: 5em;
+	margin-top: 5em;
 	width: 100%;
 	background-color: black;
 	padding-bottom: 5em;
@@ -206,6 +207,10 @@ body{
 
 .footer-dark-heading{
 	text-align: center;
+}
+
+.add-footer-margin{
+	margin-top: 2em;
 }
 
 .footer-navigation{
@@ -219,6 +224,14 @@ body{
 
 .footer-navigation a:hover{
 	color: rgba(255, 255, 255, 0.90);
+}
+
+#footer-random-saying{
+	text-align: right;
+}
+
+.footer-icons a{
+	text-decoration: none;
 }
 
 .footer-icon{
