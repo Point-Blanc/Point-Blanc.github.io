@@ -26,7 +26,8 @@ body{
 
 /* Navbar */
 .navbar{
-	background-color: #292929e0 !important;
+	/* background-color: #292929e0 !important; */
+	background-color: rgba(255, 255, 255, 0.70);
 }
 
 .navbar-brand-img{
@@ -40,7 +41,7 @@ body{
 }
 
 .nav-link{
-	color: white !important;
+	color: black !important;
 	font-size: 1.2em;
 }
 
