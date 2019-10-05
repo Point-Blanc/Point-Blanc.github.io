@@ -209,6 +209,10 @@ body{
 	text-align: center;
 }
 
+.add-footer-margin{
+	margin-top: 2em;
+}
+
 .footer-navigation{
 	text-align: center;
 }
@@ -220,6 +224,10 @@ body{
 
 .footer-navigation a:hover{
 	color: rgba(255, 255, 255, 0.90);
+}
+
+#footer-random-saying{
+	text-align: right;
 }
 
 .footer-icons a{
