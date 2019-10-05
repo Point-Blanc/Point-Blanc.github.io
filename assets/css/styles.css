@@ -199,6 +199,7 @@ body{
 /* Footer */
 .footer-dark{
 	padding-top: 5em;
+	margin-top: 5em;
 	width: 100%;
 	background-color: black;
 	padding-bottom: 5em;
@@ -219,6 +220,10 @@ body{
 
 .footer-navigation a:hover{
 	color: rgba(255, 255, 255, 0.90);
+}
+
+.footer-icons a{
+	text-decoration: none;
 }
 
 .footer-icon{
