@@ -20,6 +20,7 @@
 	<!-- Custom CSS & JS -->
 	<link rel="stylesheet" href="assets/css/styles.css">
 	<script src="assets/js/random-saying.js" type="text/javascript" charset="utf-8"></script>
+	<script src="assets/js/creator.js" type="text/javascript" charset="utf-8"></script>
 
 	<!-- Custom Modules -->
 	<script>
@@ -41,7 +42,12 @@
 
 	<!-- About Us -->
 	<div class="container">
-		<h1>About Us</h1>
+		<h1 onclick="pokeball()">
+			About Us
+			<span style="color: #0f0f0f; font-size: 0.3em;">
+				IceCereal says: This page is filled with Gifs
+			</span>
+		</h1>
 		<h5 id="about-us-text">
 			&nbsp;&nbsp;&nbsp;&nbsp;Welcome to PointBlanc, our one
 			of a kind Inter-college eSports and Gaming Expo. This is
@@ -80,15 +86,20 @@
 			we are bent on seeing come true.
 			<br><br>
 
-			&nbsp;&nbsp;&nbsp;&nbsp;Let’s party up! <(￣︶￣)> </h5>
+			&nbsp;&nbsp;&nbsp;&nbsp;Let’s party up! 
+			<span style="font-size: 1em;" onclick="kirby()">
+			<(￣︶￣)>
+			</span>
+		</h5>
 	</div>
 
 	<!-- Meet Us -->
 	<div class="container">
 		<h1>Organizers</h1>
 		<div class="row">
+			<div class="col-md-1"></div>
 			<div class="col-md-2">
-				<div class="card team-card">
+				<div class="card team-card" onclick="no()">
 					<img src="assets/img/Team/Mak.jpeg" alt="Mak">
 					<div class="container container-team">
 						<h6>makflakes</h6>
@@ -97,7 +108,7 @@
 				</div>
 			</div>
 			<div class="col-md-2">
-				<div class="card team-card">
+				<div class="card team-card" onclick="nyancat()">
 					<img src="assets/img/Team/Rochan.jpeg" alt="indievar">
 					<div class="container container-team">
 						<h6>indievar</h6>
@@ -106,7 +117,7 @@
 				</div>
 			</div>
 			<div class="col-md-2">
-				<div class="card team-card">
+				<div class="card team-card" onclick="lol()">
 					<img src="assets/img/Team/Qurram.jpeg" alt="deco">
 					<div class="container container-team">
 						<h6>deco</h6>
@@ -115,7 +126,7 @@
 				</div>
 			</div>
 			<div class="col-md-2">
-				<div class="card team-card">
+				<div class="card team-card" onclick="hangover()">
 					<img src="assets/img/Team/Rohan.jpeg" alt="Rohan9025">
 					<div class="container container-team">
 						<h6>Rohan9025</h6>
@@ -124,7 +135,7 @@
 				</div>
 			</div>
 			<div class="col-md-2">
-				<div class="card team-card">
+				<div class="card team-card" onclick="cereal()">
 					<img src="assets/img/Team/Raghav.jpeg" alt="IceCereal">
 					<div class="container container-team">
 						<h6>IceCereal</h6>
@@ -132,17 +143,18 @@
 					</div>
 				</div>
 			</div>
+			<div class="col-md-1"></div>
+		</div>
+		<div class="row">
 			<div class="col-md-2">
 				<div class="card team-card">
-					<img src="assets/img/Team/Santosh.jpeg" alt="Ironman19">
+					<img src="assets/img/Team/Aaliya.jpeg" alt="lia_019">
 					<div class="container container-team">
-						<h6>Ironman19</h6>
-						<h5>Santosh M</h5>
+						<h6>lia_019</h6>
+						<h5>Aaliya</h5>
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row">
 			<div class="col-md-2">
 				<div class="card team-card">
 					<img src="assets/img/Team/Allen.jpeg" alt="Helix164_al">
@@ -180,6 +192,27 @@
 				</div>
 			</div>
 			<div class="col-md-2">
+					<div class="card team-card">
+						<img src="assets/img/Team/Santosh.jpeg" alt="Ironman19">
+						<div class="container container-team">
+							<h6>Ironman19</h6>
+							<h5>Santosh M</h5>
+						</div>
+					</div>
+				</div>
+			
+		</div>
+		<div class="row">
+			<div class="col-md-2">
+				<!-- <div class="card team-card">
+					<img src="assets/img/Team/*.jpeg" alt="**">
+					<div class="container container-team">
+						<h6>**</h6>
+						<h5>*</h5>
+					</div>
+				</div> -->
+			</div>
+			<div class="col-md-2">
 				<div class="card team-card">
 					<img src="assets/img/Team/Sanidhya.jpeg" alt="Stormbreaker">
 					<div class="container container-team">
@@ -196,26 +229,6 @@
 						<h5>VS Vikhyath</h5>
 					</div>
 				</div>
-			</div>
-		</div>
-		<div class="row">
-			<div class="col-md-2">
-				<!-- <div class="card team-card">
-					<img src="assets/img/Team/*.jpeg" alt="**">
-					<div class="container container-team">
-						<h6>**</h6>
-						<h5>*</h5>
-					</div>
-				</div> -->
-			</div>
-			<div class="col-md-2">
-				<!-- <div class="card team-card">
-					<img src="assets/img/Team/*.jpeg" alt="**">
-					<div class="container container-team">
-						<h6>**</h6>
-						<h5>*</h5>
-					</div>
-				</div> -->
 			</div>
 			<div class="col-md-2">
 				<div class="card team-card">
@@ -234,15 +247,6 @@
 						<h5>Yashwant T</h5>
 					</div>
 				</div>
-			</div>
-			<div class="col-md-2">
-				<!-- <div class="card team-card">
-					<img src="assets/img/Team/*.jpeg" alt="**">
-					<div class="container container-team">
-						<h6>**</h6>
-						<h5>*</h5>
-					</div>
-				</div> -->
 			</div>
 			<div class="col-md-2">
 				<!-- <div class="card team-card">
