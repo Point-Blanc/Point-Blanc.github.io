@@ -37,8 +37,16 @@ function saySomethingRandom(){
 		"The flow of time is always cruel, its speed seems different for each \
 		person, but no one can change it. A thing that does not change with \
 		time is a memory of younger days.",
-		"Fighting was the only thing I was ever good at, but at least I always\
-		fought for what I believed in.",
+		"Fighting was the only thing we were ever good at, but at least we \
+		always fought for what we believed in.",
+		"All right, I’ve been thinking, when life gives you lemons, don’t make\
+		lemonade! Make life take the lemons back! Get mad! I don’t want your damn\
+		lemons! What am I supposed to do with these? Demand to see life’s\
+		manager!",
+		"Though we may be in separate places, we're part of the same squad",
+		"My connection may be slow, my ping may be high, my team may call me\
+		a noob. But as long as I have this controller in my hand, I'm not \
+		stopping."
 	];
 	var item = random_quotes[Math.floor(Math.random() * random_quotes.length)];
 	document.getElementById("footer-random-saying").innerHTML = item;
