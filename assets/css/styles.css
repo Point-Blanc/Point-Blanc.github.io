@@ -196,6 +196,34 @@ body{
 	font-size: 1em;
 }
 
+/* Sponsor */
+.logo-sponsor{
+	max-height: 200px;
+	max-width: 200px;
+	width: 100%;
+	height: auto;
+}
+
+.card{
+	background-color: transparent;
+	border: none;
+}
+
+.center-image-container{
+	text-align: center;
+	line-height: 200px;
+}
+
+.center-image-container img{
+	vertical-align: middle;
+}
+
+	/* Custom Sponsors */
+	#MEC-Logo{
+		background-color: white !important;
+		padding: 1em;
+	}
+
 /* Footer */
 .footer-dark{
 	padding-top: 5em;
@@ -209,8 +237,8 @@ body{
 	text-align: center;
 }
 
-.add-footer-margin{
-	margin-top: 2em;
+.add-footer-margin-below{
+	margin-bottom: 3.010em;
 }
 
 .footer-navigation{
@@ -257,4 +285,39 @@ body{
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
+}
+
+/* INDIVIDUAL PAGES */
+/* about-us.html */
+#about-us-text{
+	padding-left : 2em;
+	padding-right : 2em;
+	text-align: justify;
+}
+
+#about-us-text a{
+	font-size: 1em;
+	text-shadow: 0 0 0 transparent, 0 0 10px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76), 0 0 40px rgb(38, 149, 255);
+	color: white;
+}
+
+.team-card{
+	margin-bottom: 2em;
+}
+
+.team-card img{
+	margin-right: auto;
+	margin-left: auto;
+	width: 100px;
+	height: auto;
+	border-radius: 10%;
+}
+
+.container-team{
+	padding-top: 0.5em;
+	text-align: center;
+}
+
+.outline{
+	border: solid;
 }
