@@ -23,6 +23,9 @@ body{
 	-moz-osx-font-smoothing: grayscale;
 }
 
+.glowify-text{
+	text-shadow: 0 0 0 transparent, 0 0 10px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76), 0 0 40px rgb(38, 149, 255);
+}
 
 /* Navbar */
 .navbar{
@@ -255,7 +258,7 @@ body{
 }
 
 #footer-random-saying{
-	text-align: right;
+	text-align: center;
 }
 
 .footer-icons a{
@@ -320,4 +323,9 @@ body{
 
 .outline{
 	border: solid;
+}
+
+/* register.html */
+#rules-list li{
+	font-size: 1.25em;
 }
