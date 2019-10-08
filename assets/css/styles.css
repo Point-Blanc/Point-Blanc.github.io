@@ -27,6 +27,10 @@ body{
 	text-shadow: 0 0 0 transparent, 0 0 10px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76), 0 0 40px rgb(38, 149, 255);
 }
 
+.glowify-box{
+	box-shadow: 0 0 0 transparent, 0 0 7px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76);
+}
+
 /* Navbar */
 .navbar{
 	/* background-color: #292929e0 !important; */
@@ -328,4 +332,45 @@ body{
 /* register.html */
 #rules-list li{
 	font-size: 1.25em;
+}
+
+/* take-aim.html */
+.c-f-gallery{
+	padding-left: 5em;
+	padding-right: 5em;
+	margin-top: 3em;
+}
+
+.image-take-aim{
+	width: 100%;
+	height: 100%;
+	display: flex;
+	margin: 0em;
+	padding: 0.301em;
+}
+
+.image-take-aim img{
+	object-fit: cover;
+	height: auto;
+	width: 100%;
+	box-shadow: 0 0 0 transparent, 0 0 7px rgb(38, 149, 255), 0 0 20px rgba(38, 149, 255, 0.76);
+
+}
+
+.zoom-in, .zoom-in-big-image{
+	transition: transform .3010s;
+}
+
+.zoom-in:hover{
+	-ms-transform: scale(2); /* IE 9 */
+	-webkit-transform: scale(2); /* Safari 3-8 */
+	transform: scale(2);
+	z-index: 999;
+}
+
+.zoom-in-big-image:hover{
+	-ms-transform: scale(1.5); /* IE 9 */
+	-webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+	z-index: 999;
 }
