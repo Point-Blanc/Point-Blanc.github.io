@@ -288,6 +288,13 @@ body{
 	color: #55ACEE;
 }
 
+.fa-discord{
+	color: white;
+}
+.fa-discord:hover{
+	color:#7289DA;
+}
+
 #google-map-embed{
 	width: 100%;
 	margin-left: auto;
@@ -330,7 +337,7 @@ body{
 }
 
 /* register.html */
-#rules-list li{
+.rules-list li{
 	font-size: 1.25em;
 }
 
